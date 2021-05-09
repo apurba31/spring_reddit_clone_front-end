@@ -1,5 +1,4 @@
 import { Component, OnInit } from '@angular/core';
-import { PostModel } from '../shared/post-model';
 import { PostService } from '../shared/post.service';
 
 @Component({
@@ -7,7 +6,7 @@ import { PostService } from '../shared/post.service';
     templateUrl: './home.component.html',
     styleUrls: ['./home.component.css']
   })
-  export class HomeComponent implements OnInit {
+  export class PostModel implements OnInit {
   
     posts: Array<PostModel> = [];
   

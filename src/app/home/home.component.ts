@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { PostService } from '../shared/post-service';
-import { PostModel } from '../shared/post.'
+import { PostModel } from '../shared/post-model';
+
 
 @Component({
   selector: 'app-home',

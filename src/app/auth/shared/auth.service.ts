@@ -5,6 +5,7 @@ import { Observable } from 'rxjs';
 import { LoginRequestPayload } from '../login/login-request.payload';
 import { LoginResponse } from '../login/login-response.payload';
 import { LocalStorageService } from 'ngx-webstorage';
+import { map } from 'rxjs/operators'
 
 @Injectable({
   providedIn: 'root'
